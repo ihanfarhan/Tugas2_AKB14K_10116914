@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name">Tugas2_10116914</string>
+    <string name="title_activity_register">Register</string>
+    <string name="BloodType">BloodType,A,B,O,AB</string>
+    <string-array name="dropdown_arrays_bloodtype">
+        <item>Blood Type</item>
+        <item>A</item>
+        <item>B</item>
+        <item>O</item>
+        <item>AB</item>
+    </string-array>
+    <string-array name="dropdown_arrays_rhesus">
+        <item>Rhesus</item>
+        <item>Positive</item>
+        <item>Negative</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#40b4e7"
+    tools:context="com.ihanfarhan.tugas2_10116914.AlmostThere">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Almost There"
+        android:textColor="#ffffff"
+        android:textSize="35dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="158dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thankyou for registering with us. One more"
+        android:textColor="#ffffff"
+        android:layout_marginTop="26dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="step, you need to check your email"
+        android:textColor="#ffffff"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.497" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="to active your account"
+        android:textColor="#ffffff"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.498" />
+
+    <Button
+        android:id="@+id/button5"
+        android:onClick="Verify"
+        android:background="@drawable/btn_style_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verify"
+        android:textColor="#ffffff"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintVertical_bias="0.185" />
+</android.support.constraint.ConstraintLayout>
